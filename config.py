@@ -1,0 +1,14 @@
+DEBUG=True
+
+USERNAME='root'
+PASSWORD='#123Mudar'
+SERVER='localhost'
+DB='contas_flutter'
+
+#SQLALCHEMY_DATABASE_URI=f'mysql://{USERNAME}:{PASSWORD}@{SERVER}/{DB}'
+
+SQLALCHEMY_DATABASE_URI='postgresql://aiatgoudcuwaak:c99af795f505686cf7c7d33703799c6080bba2bbd4220f82315557800041e44c@ec2-44-197-128-108.compute-1.amazonaws.com:5432/d1l47d9mudru00'
+
+SQLALCHEMY_TRACK_MODIFICATIONS=True
+
+SECRET_KEY='chave_secreta1'
